@@ -75,7 +75,7 @@ void insertSort(int *array, int length) //This function will sort using insertio
 	{
 		current = array[i];
 		j = i - 1; //We want j to equal the previous number so we can compare
-		while (j >= 0 && current < arr[j])//We want to only run this if current is not the first number in the array and it is less than the prev number
+		while (j >= 0 && current < array[j])//We want to only run this if current is not the first number in the array and it is less than the prev number
 		{
 			array[j + 1] = array[j]; //Make the number after j, the current j, so you can move the larger numbers to the right
 			j--;
